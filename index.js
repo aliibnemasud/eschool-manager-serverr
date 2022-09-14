@@ -9,7 +9,7 @@ app.use(cors())
 app.use(express.json())
 
 app.get('/', (req, res) => {
-  res.send('eSchool Manger is running.....|>>>')
+  res.send('eSchool Manger is running.....')
 })
 
 
